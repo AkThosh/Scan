@@ -1,34 +1,79 @@
 body{
     margin: 0;
     padding: 0;
-    
+    background-color:  #000000;
 }
 
-.menu{
-    width: 100%;
-    background-color: rgb(25, 25, 79);
-    padding: 10px;
-}
-    
-.menu{
-    text-align: right;
-    margin-left: auto;
-    margin-right: auto;
+div.BK{
+    color: rgb(250, 246, 246);
+    text-align: left;
+    font-size: 30px;
     
 }
-.menu ul li{
+div.LR {
+ color: #fff;
+ text-align: right;
+ font-size: 20px;
+ padding: 10px;
+ 
+ border-style: solid;
+ border-radius: 5px;
+ border-color: rgb(18, 13, 46);
+}
+
+div.LR ul li{
     display: inline-block;
-    margin-left: 30px;
-    margin-right: 25px;
-   
-   
-    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+div.LR ul li a{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+color: #fff;      
+font-size: 20px;
+text-decoration: none;
 }
 
-.menu ul li a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 15px;
-    
+div.Barr{
+    text-align: center;
+    padding: 12px;
+    background-color:#10141A;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+}
+div.Barr ul li{
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 16px;
+}
 
+div.Barr ul li a{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: #fff;
+ font-size: 20px;
+ text-decoration: none;
+}
+
+div.Op{
+    text-align: left;
+    padding: 5px;
+    background-color:rgb(18, 13, 46); 
+    border-color: rgb(18, 13, 46);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+div.Op ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 16px; 
+}
+div.Op ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
 }
