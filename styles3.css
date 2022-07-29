@@ -1,0 +1,55 @@
+body{
+    background-color: #10141A;
+}
+div.Principal{
+width: 5px;
+height: 5px;
+display: inline-block;
+
+}
+
+#Name{
+color:white;
+font-size: 50px;
+font-family: fantasy;
+font-style: italic;
+
+}
+
+#Login ul li{
+    
+    display: inline-block;
+    
+}
+#Login ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+    padding-right: 5px;
+    
+
+}
+
+#Menu{
+    padding: 5px;
+    text-align: center;
+    border: rgb(12, 12, 121) solid 3px;
+    border-radius: 25px;  
+
+} 
+#Menu ul li{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#Menu ul li a{
+color: white;
+text-align: center;
+line-height:15px;
+float: center;
+text-decoration: none;
+text-shadow: whitesmoke 15px;
+
+}
