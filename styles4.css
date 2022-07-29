@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    max-width:1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+}
+header{
+    background-color: black;
+    width: 100%;
+    
+}
+.name, .login{
+    width: 25%;
+}
+
+.menu{
+    width: 50%;
+}
